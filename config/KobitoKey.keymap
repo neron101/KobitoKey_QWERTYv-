@@ -69,8 +69,8 @@
             label = "MOUSE";
             bindings = <
 &kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp LS(NUMBER_3)  &kp LS(NUMBER_4)  &kp LS(N5)      &kp RS(NUMBER_6)  &kp RS(N7)  &kp RS(N8)  &kp RS(N9)  &kp RS(N0)
-&kp LEFT          &kp UP_ARROW      &kp RIGHT         &trans            &kp LANGUAGE_1  &trans            &trans      &trans      &trans      &trans
-&kp LEFT          &kp DOWN          &kp RIGHT_ARROW   &trans            &kp LANGUAGE_2  &trans            &trans      &trans      &trans      &trans
+&kp LEFT          &kp UP_ARROW      &kp RIGHT         &trans            &kp LANGUAGE_1  &trans            &trans      &trans      &trans      &kp TILDE
+&kp LEFT          &kp DOWN          &kp RIGHT_ARROW   &trans            &kp LANGUAGE_2  &trans            &trans      &trans      &trans      &kp SLASH
 &trans            &trans            &trans            &trans            &trans          &trans            &trans      &trans      &trans      &trans
             >;
         };
