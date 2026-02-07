@@ -48,10 +48,10 @@
         layer1 {
             label = "NUMBER";
             bindings = <
-&kp NUMBER_1    &kp NUMBER_2  &kp NUMBER_3     &kp NUMBER_4  &kp N5            &kp NUMBER_6  &kp N7     &kp N8    &kp N9     &kp N0
-&kp LEFT_ARROW  &kp UP_ARROW  &kp RIGHT        &trans        &kp LANG_HANGEUL  &kp PLUS      &kp LEFT   &kp DOWN  &kp RIGHT  &trans
-&kp LEFT_ARROW  &kp DOWN      &kp RIGHT_ARROW  &trans        &kp LANGUAGE_2    &kp ASTRK     &kp SLASH  &kp LBKT  &kp RBKT   &trans
-&trans          &trans        &trans           &kp LSHFT     &trans            &trans        &trans     &trans    &trans     &trans
+&kp NUMBER_1    &kp NUMBER_2  &kp NUMBER_3     &kp NUMBER_4  &kp N5            &kp NUMBER_6  &kp N7  &kp N8  &kp N9  &kp N0
+&kp LEFT_ARROW  &kp UP_ARROW  &kp RIGHT        &trans        &kp LANG_HANGEUL  &trans        &trans  &trans  &trans  &trans
+&kp LEFT_ARROW  &kp DOWN      &kp RIGHT_ARROW  &trans        &kp LANGUAGE_2    &trans        &trans  &trans  &trans  &trans
+&trans          &trans        &trans           &trans        &trans            &trans        &trans  &trans  &trans  &trans
             >;
         };
 
@@ -68,10 +68,10 @@
         layer3 {
             label = "MOUSE";
             bindings = <
-&trans     &trans  &trans    &trans    &trans  &trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans
-&trans     &trans  &trans    &trans    &trans  &trans  &trans    &trans    &trans    &trans
-&trans     &trans  &trans    &trans    &trans  &trans  &trans    &trans    &trans    &trans
-&kp LSHFT  &trans  &kp LCMD  &kp LALT  &to 0   &trans  &trans    &trans    &to 0     &kp RALT
+&kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp LS(NUMBER_3)  &kp LS(NUMBER_4)  &kp LS(N5)      &kp RS(NUMBER_6)  &kp RS(N7)  &kp RS(N8)  &kp RS(N9)  &kp RS(N0)
+&kp LEFT          &kp UP_ARROW      &kp RIGHT         &trans            &kp LANGUAGE_1  &trans            &trans      &trans      &trans      &trans
+&kp LEFT          &kp DOWN          &kp RIGHT_ARROW   &trans            &kp LANGUAGE_2  &trans            &trans      &trans      &trans      &trans
+&trans            &trans            &trans            &trans            &trans          &trans            &trans      &trans      &trans      &trans
             >;
         };
     };
