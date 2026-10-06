@@ -2,6 +2,8 @@
 #include <zephyr/dt-bindings/input/input-event-codes.h>
 #include <input/processors.dtsi>
 #include <input/processors/sensor_rotation.dtsi>
+#include <input/processors/runtime-input-processor.dtsi>
+#include <behaviors/battery_history_request.dtsi>
 
 &xiao_serial { status = "disabled"; };
 
@@ -88,17 +90,20 @@
 
     input-processors =
         <&sensor_rotation_right>,
+        <&mouse_runtime_input_processor>,
         <&zip_temp_layer 3 5000>; /* オートマウスレイヤーの指定とトラボ操作及びマウスボタン押下後に滞留する時間 */
 };
 
 &zip_temp_layer {
     excluded-positions = <
-        6
-        7
-        8
-        30
-        32
+        16
+        17
+        18
+        25
+        26
         33
+        34
+        38
         39
     >;
 };
